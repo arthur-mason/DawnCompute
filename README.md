@@ -17,6 +17,7 @@ I needed a single place to note what I do after work — sometimes pushing updat
 1. `auroraledger.core` houses the `Entry` model plus builders for synthetic entries in a dev journal.
 2. `auroraledger.insights` contains functions that compute daily tallies and simple ratios for the daybook feed.
 3. `run.py` wires everything together; it simulates a quick batch of entries and prints a human-friendly recap.
+4. `auroraledger.fixtures` keeps the sample payload definitions so the CLI always shares the same diary voice.
 
 ## Next steps
 
