@@ -18,7 +18,7 @@ I needed a single place to note what I do after work — sometimes pushing updat
 2. `auroraledger.insights` contains functions that compute daily tallies and simple ratios for the daybook feed.
 3. `run.py` wires everything together; it simulates a quick batch of entries and prints a human-friendly recap.
 4. `auroraledger.cli` is the small argument-based wrapper used to surface domain-limited views when I just need one lane of work.
-4. `auroraledger.fixtures` keeps the sample payload definitions so the CLI always shares the same diary voice.
+5. `auroraledger.fixtures` keeps the sample payload definitions so the CLI always shares the same diary voice.
 
 ## Next steps
 
